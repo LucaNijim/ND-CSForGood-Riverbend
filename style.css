@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Sometype+Mono:wght@500&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&display=swap');
+
 body{
     height:100%;
     font-family: Sometype Mono;
@@ -45,12 +47,16 @@ article{
 }
 
 h1{
-    text-decoration:underline;
-    font-size:60px;
+    text-decoration:none;
+    font-size:90px;
+    margin-bottom: 0px;
+    padding-bottom:0pxl
 }
 
 h2{
-    font-size:40px;
+    font-size:60px;
+    font-family: Caveat;
+    margin:0px;
 }
 
 .italic{
@@ -70,6 +76,7 @@ ul{
 }
 
 .bigbox{
+    background-image: linear-gradient(to bottom right, #609db1,#2d788f);
     background-color:#2d788f;
     padding:0px;
     border:2px solid black;
@@ -77,6 +84,12 @@ ul{
     width:40%;
     margin:auto;
     margin-bottom:20px;
+}
+
+.bigbox h2{
+    font-family: sometype mono;
+    font-size:40px;
+    margin:10px;
 }
 
 .box{

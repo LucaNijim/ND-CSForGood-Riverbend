@@ -80,22 +80,17 @@ ul{
 }
 
 .box{
-    background-color:#2d788f;
+    background-color:#549db3;
     padding:0px;
     border:2px solid black;
     border-radius:3px;
     display:flex;
     justify-content: center;
     align-items: center;
-    width:100%;
+    width:80%;
     min-height:5vw;
     margin:auto;
     margin-bottom:10px;
-}
-
-.inner{
-    width:80%;
-    background-color:#549db3
 }
 
 li{

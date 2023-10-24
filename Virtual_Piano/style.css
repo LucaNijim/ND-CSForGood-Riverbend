@@ -1,0 +1,19 @@
+body{
+    height:100%;
+    box-sizing: border-box;
+}
+
+#wrapper{
+    background-image: linear-gradient(to bottom right, #2d788f, #328da8, #69cfdf,#b1dee5, #d9e9eb);
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    overflow: auto;
+    min-height:100%;
+}
+
+#white{
+    box-sizing:border-box;
+}

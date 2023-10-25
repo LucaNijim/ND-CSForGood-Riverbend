@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Sometype+Mono:wght@500&display=swap');
+
 body{
     height:100%;
     box-sizing: border-box;
+    font-family: Sometype Mono;
 }
 
 #wrapper{
@@ -27,12 +30,16 @@ input{
 
 #centerBox{
     width:40%;
-    height:30px;
-    padding:50px;
+    padding:20px;
+    border:2px solid black;
+    border-radius:5px;
     margin: auto;
     margin-top:60px;
     background-color:#2d788f;
-    display:flex;
-    justify-content: center;
-    align-items: center;
+}
+
+#boxheader{
+    display:block;
+    width:100%;
+    color:black;
 }

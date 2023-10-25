@@ -1,14 +1,15 @@
 
 keys = [];
 
-keyboardHeight = window.innerHeight * 0.4;
-
 numkeys = 20;
 
 //initialize slider count
 document.getElementById("count").innerHTML = `<h2>${numkeys}</h2>`;
 
 function drawKeys(){
+
+    //set keyboard height
+    keyboardHeight = window.innerHeight * 0.4;
 
     //remove all previous keys from screen
     keys = [];
@@ -66,8 +67,6 @@ var slider = document.getElementById("myRange");
 
 slider.addEventListener("input", function(){
     numkeys = this.value;
-    document.getElementById("count").innerHTML = `<h2>${numkeys}</h2>`;
-    drawKeys();
 })
 
 console.log(keys);
@@ -75,6 +74,8 @@ console.log(keys);
 drawKeys();
 
 function animate(){
+    drawKeys();
+    document.getElementById("count").innerHTML = `<h2>${keys.length}</h2>`;
 }
 
 

@@ -7,14 +7,20 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+
     <div id="wrapper">
         <div id="pianoBox"></div>
 
         <div id="centerBox">
-            <input type="range" min="1" max="100" value="20" class="slider" id="myRange">
+
+            <div id="boxheader">
+                <h2>Number of Keys:</h2>
+            </div>
+
+            <input type="range" min="1" max="500" value="20" class="slider" id="myRange">
             <div id="count"></div>
         </div>
+
     </div> 
 
     <script src="script.js"></script>

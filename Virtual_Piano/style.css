@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Sometype+Mono:wght@500&display=swap');
+
+body{
+    height:100%;
+    box-sizing: border-box;
+    font-family: Sometype Mono;
+}
+
+#wrapper{
+    background-image: linear-gradient(to bottom right, #2d788f, #328da8, #69cfdf,#b1dee5, #d9e9eb);
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    overflow: auto;
+    min-height:100%;
+    text-align:center;
+
+}
+
+#white{
+    box-sizing:border-box;
+}
+
+input{
+    display:block;
+    width:100%;
+}
+
+#centerBox{
+    width:40%;
+    padding:20px;
+    border:2px solid black;
+    border-radius:5px;
+    margin: auto;
+    margin-top:60px;
+    background-color:#2d788f;
+}
+
+#boxheader{
+    display:block;
+    width:100%;
+    color:black;
+}

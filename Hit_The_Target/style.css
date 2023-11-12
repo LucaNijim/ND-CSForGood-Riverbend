@@ -1,0 +1,41 @@
+body{
+    background-color: #333232;
+}
+
+
+#container {
+    background-color: #0e2431;   
+    border: 5px solid white;
+    height:275px;
+    width: 600px;
+    margin: auto;
+    text-align: center;
+    display:table-cell;
+}
+
+#container2 {
+    background-color: #0e2431;   
+    border: 5px solid white;
+    height:275px;
+    width: 400px;
+    margin: auto;
+    display:table-cell;
+    text-align: center;
+}
+
+p{
+    color: white
+}
+
+#input{
+    width:1000px;
+    margin:25px auto;
+}
+
+#maincontainer {
+    width: 600px;
+    height: auto;
+    margin: 0 auto;
+    padding: 10px;
+    position: relative;
+}

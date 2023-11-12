@@ -5,9 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HitTheTarget</title>
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
 </head>
 <body>
-    Hit The Target
+    <h1>
+        Hit the Target
+    </h1>
+
+
+    <div id="maincontainer">
+        <div id="container">
+            <p>Starting Number: <span id = "initNumber"></span> </p> 
+            <p>Range: <span id = "min"></span> - <span id="max"></span></p> 
+            <p id = "targetedRange"></p>    
+            <input type="number" id="userInput"><button id = "multiply">Multiply!</button>
+            <button id = "randomize">Randomize Numbers and Reset</button>
+            <p><span id = "outputtext"></span></p>
+        </div>
+    
+        <div id ="container2">
+        <p>One number below range: <span id = "belowRange">0</span>/1</p>
+        <p>Three numbers in range: <span id = "inRange">0</span>/3</p>
+        <p>One number above range: <span id = "aboveRange">0</span>/1</p>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
